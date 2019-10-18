@@ -1,0 +1,12 @@
+type: AnalyzerGroup
+path: folding
+analyzers:
+  e_stop:
+    type: diagnostic_aggregator/FoldingAnalyzer
+    top_level: "rzr_node: Emergency Stop"
+    fold_level: 2
+    fold:
+      - "rzr_node: General Drivetrain"
+      - "rzr_node: Sonar"
+      - "localization_monitor: Localization Monitor Status"
+      - "rzr_node: General Logic"

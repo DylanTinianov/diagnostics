@@ -14,6 +14,11 @@
       IgnoreAnalyzer will ignore all parameters and discard all.
     </description>
   </class>
+  <class name="diagnostic_aggregator/FoldingAnalyzer" type="diagnostic_aggregator::FoldingAnalyzer" base_class_type="diagnostic_aggregator::Analyzer">
+    <description>
+      FoldingAnalyzer will fold diagnostic msgs if other msgs are showing.
+    </description>
+  </class>
     <class name="diagnostic_aggregator/AnalyzerGroup" type="diagnostic_aggregator::AnalyzerGroup" base_class_type="diagnostic_aggregator::Analyzer">
     <description>
       AnalyzerGroup is a way of grouping diagnostic analyzers. It is used internally by the aggregator, and can also be used as a plugin.

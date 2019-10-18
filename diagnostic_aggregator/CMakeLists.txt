@@ -32,6 +32,7 @@ add_library(${PROJECT_NAME}
   src/generic_analyzer.cpp
   src/discard_analyzer.cpp
   src/ignore_analyzer.cpp
+  src/folding_analyzer.cpp
   src/aggregator.cpp)
 target_link_libraries(diagnostic_aggregator ${Boost_LIBRARIES}
                                             ${catkin_LIBRARIES}
